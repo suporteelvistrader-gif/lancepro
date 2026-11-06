@@ -7,7 +7,7 @@ const initialLots = [
   { id: 3, title: 'Honda CG 160 Fan 2022', category: 'Veículos', location: 'Recife, PE', bid: 9200, bids: 9, ends: '08h 06m', image: 'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=85', tag: 'Lance aberto' },
   { id: 4, title: 'Lote de móveis para escritório', category: 'Diversos', location: 'Salvador, BA', bid: 3400, bids: 7, ends: '1d 03h', image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85', tag: 'Lance aberto' },
   { id: 5, title: 'Jeep Renegade Longitude 2021', category: 'Veículos', location: 'João Pessoa, PB', bid: 67500, bids: 21, ends: '1d 08h', image: 'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1000&q=85', tag: 'Em destaque' },
-  { id: 6, title: 'Apartamento próximo à praia', category: 'Imóveis', location: 'Barra dos Coqueiros, SE', bid: 210000, bids: 14, ends: '2d 11h', image: 'https://images.unsplash.com/photo-160060515?auto=format&fit=crop&w=1000&q=85', tag: 'Oportunidade' }
+  { id: 6, title: 'Apartamento próximo à praia', category: 'Imóveis', location: 'Barra dos Coqueiros, SE', bid: 210000, bids: 14, ends: '2d 11h', image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=85', tag: 'Oportunidade' }
 ];
 
 const money = value => value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 });
